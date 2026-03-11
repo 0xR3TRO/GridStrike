@@ -75,17 +75,17 @@ Then visit `http://localhost:8080`.
 
 ## Game Modes
 
-| Mode                 | Description                                |
-| -------------------- | ------------------------------------------ |
+| Mode | Description |
+|------|-------------|
 | **Player vs Player** | Two humans share the screen, taking turns. |
-| **Player vs CPU**    | Human plays as X; the computer plays as O. |
+| **Player vs CPU** | Human plays as X; the computer plays as O. |
 
 In PvCPU mode, choose a difficulty before playing:
 
-| Difficulty | Behavior                                                                                                              |
-| ---------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Easy**   | CPU picks a random empty cell — very beatable.                                                                        |
-| **Smart**  | CPU uses a heuristic: wins if possible, blocks your wins, prefers center and corners. Challenging but not unbeatable. |
+| Difficulty | Behavior |
+|------------|----------|
+| **Easy** | CPU picks a random empty cell — very beatable. |
+| **Smart** | CPU uses a heuristic: wins if possible, blocks your wins, prefers center and corners. Challenging but not unbeatable. |
 
 ---
 
